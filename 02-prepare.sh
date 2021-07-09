@@ -10,8 +10,6 @@ docker run -i --rm --link clickhouse_ellx:clickhouse-server \
              --host clickhouse-server \
              --query "CREATE DATABASE mat_test"
 
-
-
 # drop table
 docker run -i --rm --link clickhouse_ellx:clickhouse-server \
            yandex/clickhouse-client \
